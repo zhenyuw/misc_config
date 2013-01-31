@@ -2,4 +2,4 @@ misc_config
 ===========
 
 dot.emacs	- emacs config
-
+dot.vimrc	- vim config
