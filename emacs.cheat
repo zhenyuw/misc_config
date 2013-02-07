@@ -1,0 +1,18 @@
+
+-input unicode: C-x 8 <RET>
+
+- goto line number: M-g g 
+
+- insert new line after point: C-o
+
+- remove blank lines but only one: C-x C-o
+
+- cmd argument: M-Num xx (C-u as stop key); C-u Num
+  - C-u means mutiple four times (e.g C-u C-u means 16 times)
+
+- highlight current line mode: M-x hl-line-mode
+
+- repeat command: C-x z (following 'z' repeat more times)
+
+- 
+
