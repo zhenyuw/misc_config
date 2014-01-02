@@ -8,11 +8,35 @@
 - remove blank lines but only one: C-x C-o
 
 - cmd argument: M-Num xx (C-u as stop key); C-u Num
-  - C-u means mutiple four times (e.g C-u C-u means 16 times)
+  - C-u means multiple four times (e.g C-u C-u means 16 times)
 
 - highlight current line mode: M-x hl-line-mode
 
 - repeat command: C-x z (following 'z' repeat more times)
 
-- 
+- frames:
+  - new frame: C-x 5 2
+  - close frame: C-x 5 0
+  - new frame with buffer: C-x 5 b BUFNAME
+  - new frame with file: C-x 5 f
+  - new frame with dired buffer: C-x 5 d
+  - select another frame: C-x 5 o
+  - delete all but current frame: C-x 5 1
+
+- speedbar for frame:
+  - create: M-x speedbar
+  - quit: M-x speedbar (again) or 'q' in speedbar frame
+
+- scrollbar: M-x scroll-bar-mode
+
+- menu bar: M-x menu-bar-mode
+
+- tool bar: M-x tool-bar-mode
+
+- case conversion: M-l (lower case) M-u (upper case) M-c (Capital)
+
+- spell check:
+  - M-$ (for one word or for marked region)
+  - M-x ispell (in buffer)
+  - M-x ispell-region (in region)
 
